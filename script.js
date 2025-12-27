@@ -160,7 +160,7 @@ generateBtn.addEventListener('click', () => {
     if (symbolsCheck.checked) 
         funcArr.push(generateSymbol);
 
-    // Compulsory Addition
+    
     for (let i = 0; i < funcArr.length; i++) {
         password += funcArr[i]();
     }
@@ -178,4 +178,5 @@ generateBtn.addEventListener('click', () => {
     passwordDisplay.value=password;
     console.log("pssss done")
     calcStrength();
+
 })
